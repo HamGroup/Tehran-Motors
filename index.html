@@ -231,6 +231,19 @@
             text-align: center;
         }
     </style>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {
+                    pageLanguage: 'en',
+                    includedLanguages: 'en,fa',
+                    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                },
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 <body>
     <nav class="bg-primary py-4 px-8 flex justify-between items-center">
@@ -242,6 +255,7 @@
             <li><a href="#Cars" class="text-primary-foreground hover:text-primary-dark">Featured Cars</a></li>
             <li><a href="#" class="text-primary-foreground hover:text-primary-dark">Contact Us</a></li>
         </ul>
+        <div id="google_translate_element" class="flex items-center"></div>
     </nav>
     <section class="bg-cover bg-center h-screen flex items-center" style="background-image: url('background.jpg');">
         <div class="p-8 text-center">
@@ -288,8 +302,8 @@
         <div class="text-left">
             <h2 class="text-2xl font-bold text-primary-foreground mb-8">Contact Us</h2>
             <p class="text-lg text-primary-foreground">
-                E-Mail:tehran.motors.tm@gmail.com
-                Call us at: 
+                E-Mail: tehran.motors.tm@gmail.com<br>
+                Call us at:<br>
                 Address: PCPJ+42J District 7, Tehran, Tehran Province
             </p>
         </div>
